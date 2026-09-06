@@ -31,6 +31,14 @@ Linux, macOS and Windows, published with build provenance.
 | [batuta-mcp](https://github.com/vorluno/batuta-mcp) | Splits a task into plans with disjoint file boundaries + scaffolds a git worktree per plan |
 | [mcp-s](https://github.com/vorluno/mcp-s) | Vorluno's family of MCP servers for AI coding agents |
 
+**Extracted from [niiko](https://niiko.org), where they run in production:**
+
+| Package | What it does |
+|---|---|
+| [whatsapp-cloud-client](https://github.com/vorluno/whatsapp-cloud-client) | A typed WhatsApp Cloud API client: signature verification in constant time, a tolerant webhook parser, and error classification that knows which failures are worth retrying |
+| [ratchet](https://github.com/vorluno/ratchet) | Per-capability autonomy for AI agents — caps in their own unit, because a cap in the wrong unit is not a weak cap, it is one you cannot compare |
+| [niiko-events](https://github.com/vorluno/niiko-events) | The event catalog: every event defined once, with its payload schema and the reasoning behind its shape. Generated, read-only |
+
 Every repository here carries the same five files — a licence, a contribution guide that says in its
 first line whether your pull request will be considered, a security policy with a **72-hour
 acknowledgement**, a code of conduct, and an authors file. Bug reports are welcome; a vulnerability
