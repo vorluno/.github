@@ -22,13 +22,19 @@ A software studio in Panamá — TypeScript & Python, shipped in English for cli
 
 ## Open source
 
-Tools we built for our own AI-agent workflows, shared as-is:
+Tools we built for our own AI-agent workflows, and maintain in the open. **Apache-2.0**, tested on
+Linux, macOS and Windows, published with build provenance.
 
 | Tool | What it does |
 |---|---|
 | [agora-mcp](https://github.com/vorluno/agora-mcp) | Shared per-repo space for parallel Claude Code sessions — collision warnings, notes, persistence |
 | [batuta-mcp](https://github.com/vorluno/batuta-mcp) | Splits a task into plans with disjoint file boundaries + scaffolds a git worktree per plan |
 | [mcp-s](https://github.com/vorluno/mcp-s) | Vorluno's family of MCP servers for AI coding agents |
+
+Every repository here carries the same five files — a licence, a contribution guide that says in its
+first line whether your pull request will be considered, a security policy with a **72-hour
+acknowledgement**, a code of conduct, and an authors file. Bug reports are welcome; a vulnerability
+goes to **security@vorluno.dev**, never to an issue.
 
 ## How we work
 
