@@ -50,6 +50,8 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [prove-your-test-can-fail](https://github.com/vorluno/prove-your-test-can-fail) | Two green suites, and only one is worth having — plus the half nobody checks: a mutation that comes back green may simply have missed |
 | [exit-code-after-the-pipe](https://github.com/vorluno/exit-code-after-the-pipe) | The same failing gate, four ways. Three report success, and the error is printed inside the green job |
 | [one-gate-one-question](https://github.com/vorluno/one-gate-one-question) | One signal doing two jobs is correct about everything except the file the gate was built for |
+| [idempotency-of-the-effect](https://github.com/vorluno/idempotency-of-the-effect) | Key it by the turn and the second legitimate action disappears; check it after the effect and the retry duplicates while the audit says it happened once |
+| [typed-refusals](https://github.com/vorluno/typed-refusals) | Six situations needing six different people to do six different things, compressed into one bit — and a block that leaves no trace |
 
 They are meant to be copied, and the licence says so.
 
