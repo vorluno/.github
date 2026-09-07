@@ -47,6 +47,9 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [boundary-gate-blind-three-ways](https://github.com/vorluno/boundary-gate-blind-three-ways) | Your open-core boundary check is blind three ways, and the tree it approves does not compile |
 | [crypto-shredding-erasure](https://github.com/vorluno/crypto-shredding-erasure) | A soft delete satisfies the right to restrict, not the right to be forgotten. The test is the restore — and the trap is where the keys live |
 | [rls-per-request](https://github.com/vorluno/rls-per-request) | Row-level security leaks when the connection is pooled: it compiles, the unit tests pass, and the data is crossed |
+| [prove-your-test-can-fail](https://github.com/vorluno/prove-your-test-can-fail) | Two green suites, and only one is worth having — plus the half nobody checks: a mutation that comes back green may simply have missed |
+| [exit-code-after-the-pipe](https://github.com/vorluno/exit-code-after-the-pipe) | The same failing gate, four ways. Three report success, and the error is printed inside the green job |
+| [one-gate-one-question](https://github.com/vorluno/one-gate-one-question) | One signal doing two jobs is correct about everything except the file the gate was built for |
 
 They are meant to be copied, and the licence says so.
 
