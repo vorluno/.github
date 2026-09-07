@@ -45,6 +45,8 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [freeze-the-arguments](https://github.com/vorluno/freeze-the-arguments) | Human approval is not a defence. The broken version passes every test you would think to write, and then charges ten times what was shown |
 | [the-wall-is-in-the-data-layer](https://github.com/vorluno/the-wall-is-in-the-data-layer) | The prompt loses to four words; the wall does not care. And a fifth origin breaks the build until somebody decides about it |
 | [boundary-gate-blind-three-ways](https://github.com/vorluno/boundary-gate-blind-three-ways) | Your open-core boundary check is blind three ways, and the tree it approves does not compile |
+| [crypto-shredding-erasure](https://github.com/vorluno/crypto-shredding-erasure) | A soft delete satisfies the right to restrict, not the right to be forgotten. The test is the restore — and the trap is where the keys live |
+| [rls-per-request](https://github.com/vorluno/rls-per-request) | Row-level security leaks when the connection is pooled: it compiles, the unit tests pass, and the data is crossed |
 
 They are meant to be copied, and the licence says so.
 
