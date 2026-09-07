@@ -57,6 +57,7 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [ledger-invariants-in-the-database](https://github.com/vorluno/ledger-invariants-in-the-database) | Your balance check is correct, and the migration script never asks it. Real Postgres inside the test, no Docker |
 | [pii-gate-default-deny](https://github.com/vorluno/pii-gate-default-deny) | A registry cannot see the module that forgot to register — which is the only one you needed it to find. It reports green while an address survives an erasure |
 | [deprecation-vs-pending-approvals](https://github.com/vorluno/deprecation-vs-pending-approvals) | A clean removal, and a live Approve button that can never work. Then the obvious patch issues four thousand dollars where forty were asked for |
+| [two-sdks-one-schema](https://github.com/vorluno/two-sdks-one-schema) | Generate both clients and they stop drifting — the drift moves into the generator, where one missing line is wrong in every language at once |
 
 They are meant to be copied, and the licence says so.
 
