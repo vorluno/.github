@@ -36,6 +36,18 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [niiko-events](https://github.com/vorluno/niiko-events) | The event catalog: every event defined once, with its payload schema and the reasoning behind its shape. Generated, read-only |
 | [niiko-cookbook](https://github.com/vorluno/niiko-cookbook) | Integration recipes you copy and run — every one with no credentials and no network, because a recipe that does not run teaches the wrong thing twice |
 
+**Demonstrations — each one shows a single failure, with a test that would be red without the fix:**
+
+| | Its thesis |
+|---|---|
+| [per-capability-autonomy](https://github.com/vorluno/per-capability-autonomy) | Autonomy belongs to the capability, not to the agent — two capabilities, one policy table, and only one degrades |
+| [caps-in-the-right-unit](https://github.com/vorluno/caps-in-the-right-unit) | A cap in the wrong unit is not one you forgot to check; it is one you cannot compare. The test is a counter that stays at zero |
+| [freeze-the-arguments](https://github.com/vorluno/freeze-the-arguments) | Human approval is not a defence. The broken version passes every test you would think to write, and then charges ten times what was shown |
+| [the-wall-is-in-the-data-layer](https://github.com/vorluno/the-wall-is-in-the-data-layer) | The prompt loses to four words; the wall does not care. And a fifth origin breaks the build until somebody decides about it |
+| [boundary-gate-blind-three-ways](https://github.com/vorluno/boundary-gate-blind-three-ways) | Your open-core boundary check is blind three ways, and the tree it approves does not compile |
+
+They are meant to be copied, and the licence says so.
+
 *Previously: `agora-mcp`, `batuta-mcp` and the `mcp-s` index — three MCP servers for coordinating parallel
 coding agents, now retired and archived because Claude Code does that itself.*
 
