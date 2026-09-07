@@ -54,6 +54,9 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [typed-refusals](https://github.com/vorluno/typed-refusals) | Six situations needing six different people to do six different things, compressed into one bit — and a block that leaves no trace |
 | [search-terms-not-identifiers](https://github.com/vorluno/search-terms-not-identifiers) | Let a model emit an id and a hostile message decides which record you act on. Let it emit search terms and the forgery does not compile |
 | [append-only-that-blocked-itself](https://github.com/vorluno/append-only-that-blocked-itself) | The rule is right, and it is what stands between you and a correction everybody agrees with. The fix is another entry |
+| [ledger-invariants-in-the-database](https://github.com/vorluno/ledger-invariants-in-the-database) | Your balance check is correct, and the migration script never asks it. Real Postgres inside the test, no Docker |
+| [pii-gate-default-deny](https://github.com/vorluno/pii-gate-default-deny) | A registry cannot see the module that forgot to register — which is the only one you needed it to find. It reports green while an address survives an erasure |
+| [deprecation-vs-pending-approvals](https://github.com/vorluno/deprecation-vs-pending-approvals) | A clean removal, and a live Approve button that can never work. Then the obvious patch issues four thousand dollars where forty were asked for |
 
 They are meant to be copied, and the licence says so.
 
