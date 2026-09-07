@@ -34,6 +34,7 @@ file. Bug reports are welcome; a vulnerability goes to **security@vorluno.dev**,
 | [whatsapp-cloud-client](https://github.com/vorluno/whatsapp-cloud-client) | A typed WhatsApp Cloud API client: signature verification in constant time, a tolerant webhook parser, and error classification that knows which failures are worth retrying |
 | [ratchet](https://github.com/vorluno/ratchet) | Per-capability autonomy for AI agents — caps in their own unit, because a cap in the wrong unit is not a weak cap, it is one you cannot compare |
 | [niiko-events](https://github.com/vorluno/niiko-events) | The event catalog: every event defined once, with its payload schema and the reasoning behind its shape. Generated, read-only |
+| [niiko-cookbook](https://github.com/vorluno/niiko-cookbook) | Integration recipes you copy and run — every one with no credentials and no network, because a recipe that does not run teaches the wrong thing twice |
 
 *Previously: `agora-mcp`, `batuta-mcp` and the `mcp-s` index — three MCP servers for coordinating parallel
 coding agents, now retired and archived because Claude Code does that itself.*
